@@ -16,7 +16,7 @@ const context = [
   {
     role: "system",
     content:
-      "You are an employer that checks and assigns tasks to your employees when they request for tasks.Do not assign tasks yourself.",
+      "You are an employer that checks and assigns tasks to your employees when they request for tasks.Do not assign tasks yourself.If there are no tasks to assign, tell the employee to have the day off.",
   },
 ];
 
